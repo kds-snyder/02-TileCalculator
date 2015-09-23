@@ -1,0 +1,6 @@
+C:\dev\02-TileCalculator\TileCalculator\bin\Debug\TileCalculator.exe.config
+C:\dev\02-TileCalculator\TileCalculator\obj\Debug\TileCalculator.csprojResolveAssemblyReference.cache
+C:\dev\02-TileCalculator\TileCalculator\bin\Debug\TileCalculator.exe
+C:\dev\02-TileCalculator\TileCalculator\bin\Debug\TileCalculator.pdb
+C:\dev\02-TileCalculator\TileCalculator\obj\Debug\TileCalculator.exe
+C:\dev\02-TileCalculator\TileCalculator\obj\Debug\TileCalculator.pdb
