@@ -12,7 +12,7 @@ namespace TileCalculator
         {
             try
             {
-                // Get from user: room width & height, and  tile area & price
+                // Get from user: area width & length, and  tile size & price
                 decimal width = inputPosDecNum("What is the width to tile? (ft): ");
                 decimal length = inputPosDecNum("What is the length to tile ? (ft): ");
                 decimal tileSize = inputPosDecNum("What is the tile size? (sq ft): ");
