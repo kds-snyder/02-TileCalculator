@@ -20,7 +20,7 @@ namespace TileCalculator
 
                 // Calculate area to tile, number of tiles needed, and cost
                 decimal areaToTile = length * width;
-                long numTiles = calcNumTiles(areaToTile, tileSize);
+                decimal numTiles = calcNumTiles(areaToTile, tileSize);
                 decimal totalCost = numTiles * tilePrice;
 
                 // Output the results
@@ -67,12 +67,14 @@ namespace TileCalculator
                     }
                     else
                     {
-                        Console.WriteLine("Please enter a number greater than 0.");
+                        Console.WriteLine("Please enter a positive number less than " +
+                                    (Decimal.MaxValue).ToString("#,##0"));                        
                     }
                 }
                 else
                 {
-                    Console.WriteLine("Please enter a valid number.");
+                    Console.WriteLine("Please enter a positive number less than " +
+                                    (Decimal.MaxValue).ToString("#,##0"));
                 }
             }
         }
